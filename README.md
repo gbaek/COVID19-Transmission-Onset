@@ -1,4 +1,4 @@
-# COVID19-Transmission-Onset
+# Transmission onset distribution of COVID-19 
 
 ## Objectives
 
