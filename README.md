@@ -12,4 +12,4 @@ We inferred transmission onset time from 72 infector-infectee pairs in South Kor
 We estimated the median transmission onset to be 1.31 days (standard deviation, 2.64 days) after symptom onset with peak at 0.72 days before symptom onset. The pre-symptomatic transmission proportion was 37% (95% credible interval [CI], 16–52%). The median incubation period was estimated to be 2.87 days (95% CI, 2.33–3.50 days) and the median serial interval to be 3.56 days (95% CI, 2.72–4.44 days).
 
 ## Conclusions
-Considering the transmission onset distribution peaked with the symptom onset and the pre34 symptomatic transmission proportion is substantial, the usual preventive measure might be too late to prevent SARS-CoV-2 transmission. 
+Considering the transmission onset distribution peaked with the symptom onset and the pre-symptomatic transmission proportion is substantial, the usual preventive measure might be too late to prevent SARS-CoV-2 transmission. 
