@@ -60,7 +60,7 @@ phi1 = dgamma(1, phi1_s, phi1_r) ; phi2 = dgamma(1, phi2_s, phi2_r)
 #   - rw : generate W with parameter pi, phi1, phi2, mu (if pi=1, generate from gamma distribution)
 #   - dW : density of W with parameter pi, phi1, phi2, mu
 #   - rlnorm_cond : generate from conditional log-normal distribution 
-#       (For impute transmission date from (previously estimated) incubation period distribution  
+#       (For impute transmission date from (current and previously estimated) incubation period distribution  
 #
 ###################################################################################################
 
