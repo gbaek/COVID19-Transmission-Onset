@@ -1,5 +1,8 @@
 # Transmission onset distribution of COVID-19 
 
+https://www.sciencedirect.com/science/article/pii/S1201971220306123
+
+
 ## Objectives
 
 The distribution of the transmission onset of COVID-19 relative to the symptom onset is a key parameter for infection control. It is often not easy to study the transmission onset time, as is difficult to know who infected whom exactly when.
