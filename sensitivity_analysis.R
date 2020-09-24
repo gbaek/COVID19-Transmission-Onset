@@ -103,7 +103,8 @@ LL.gamma = sum(dgamma(z, shape=alpha, scale = beta, log = T))
 
 
 ## estimate log-Normal distribution (MLE)
-mu.lnorm = exp(mean(log(z))) - mu
+med.lnorm = exp(mean(log(z))) - mu
+mu.lnorm = mean(log(z))
 sd.lnorm = sd(log(z))
 
 set.seed(0429)
@@ -114,12 +115,12 @@ para1.B.lnorm = c()
 para2.B.lnorm = c()
 for(b in 1:B){
   z.lnorm = mu+sample(si, n, replace = T)
-  para1.B.lnorm[b] = exp(mean(log(z.lnorm))) - mu
+  para1.B.lnorm[b] = mean(log(z.lnorm))
   para2.B.lnorm[b] = sd(log(z.lnorm))
-  med.B.lnorm[b] = exp(mean(log(z.lnorm)))
+  med.B.lnorm[b] = exp(mean(log(z.lnorm))) - mu
 }
 
-CI.B.lnorm = quantile(med.B.lnorm, c(0.025, 0.975)) - mu
+CI.B.lnorm = quantile(med.B.lnorm, c(0.025, 0.975))
 round(quantile(para1.B.lnorm, c(0.025, 0.975)),2)
 round(quantile(para2.B.lnorm, c(0.025, 0.975)),2)
 
